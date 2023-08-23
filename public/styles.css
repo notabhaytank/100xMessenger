@@ -44,7 +44,7 @@ body {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
   background-color: white
   ;
-  width: ;
+  width: auto ;
 }
 
 .name {
@@ -70,7 +70,7 @@ body {
 
 .name-input {
   font-size: 17px;
-  font-weight: 500;
+  font-weight: 400;
   color: #ffffff;
   flex-grow: 1;
   border: none;
