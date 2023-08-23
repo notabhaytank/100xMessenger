@@ -16,11 +16,11 @@ body {
 
   display: grid;
   place-items: center;
-  background-color: rgb(245 245 244);
+  background-color: rgb(255, 255, 255);
   background-image: radial-gradient(rgb(252, 228, 221) 1px, transparent 2px);
   background-size: 20px 20px; /* Adjust the size of the dots as needed */
   
-  padding: 40px;
+  padding: 20px;
   box-sizing: border-box;
   
   
@@ -42,6 +42,7 @@ body {
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  background-color: white
   ;
 }
 
@@ -88,6 +89,7 @@ body {
   background-color: #ffffff;
   width: 300px;
   height: 400px; 
+  margin: auto;
   
 overflow-y: scroll; overflow-x:
 hidden; }
@@ -96,7 +98,7 @@ hidden; }
 .message-right {
 list-style:
 none; padding:
-6px
+10px
 10px; margin:
 8px; max-width:
 200px; font-size:
@@ -105,9 +107,9 @@ break-word; }
 
 .message-left {
 border-radius:
-15px
-15px
-15px
+10px
+10px
+10px
 0px; align-self:
 flex-start; background-color:
 #fff; box-shadow:
@@ -118,12 +120,12 @@ flex-start; background-color:
 
 .message-right {
 border-radius:
-15px
-15px
+10px
+10px
 0px
-15px; align-self:
+10px; align-self:
 flex-end; background-color:
-#2d2d2d; box-shadow:
+#000000; box-shadow:
 2px
 2px
 4px
@@ -166,9 +168,13 @@ none; outline:
 none; padding:
 0
 8px;
-margin: 0px ;
+padding-left: 5px;
+color: #ffffff;
+
+
 background-color:
-#ffffff; }
+#000000; 
+font-style: italic;}
 
 .send-button {
 height:
@@ -179,19 +185,18 @@ none; padding:
 0px
 16px; outline:
 none; background-color:
-#fff; cursor:
-pointer; }
+#000000; cursor:
+pointer;
+color: #ffffff; }
 
 .v-divider {
 height:
 36px;
-width:
-
-2 px;
+width: 1px;
 
 background-color:
 
-#f6f6f6;
+#4e4e4e;
 
 }
 
@@ -204,6 +209,7 @@ color:
 #7e7e7e;
 
 font-size:15px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
 }
 
