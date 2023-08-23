@@ -87,7 +87,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #ffffff;
-  width: 300px;
+  width: auto;
   height: 400px; 
   margin: auto;
   
@@ -126,7 +126,7 @@ border-radius:
 0px
 10px; align-self:
 flex-end; background-color:
-rgb(0,0,0,); box-shadow:
+#000000; box-shadow:
 2px
 2px
 4px
