@@ -302,3 +302,18 @@ margin-bottom: -17px;
 
 }
 
+.input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+
+    
+}
+
+.input-container input {
+    text-align: center;
+    
+    padding: 7px;
+    border-radius: 3px;
+}
