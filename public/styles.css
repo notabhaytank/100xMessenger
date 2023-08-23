@@ -96,9 +96,10 @@ hidden; }
 
 .message-left,
 .message-right {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 list-style:
 none; padding:
-10px
+8px
 10px; margin:
 8px; max-width:
 200px; font-size:
@@ -125,7 +126,7 @@ border-radius:
 0px
 10px; align-self:
 flex-end; background-color:
-#000000; box-shadow:
+rgb(0,0,0,); box-shadow:
 2px
 2px
 4px
@@ -134,22 +135,22 @@ flex-end; background-color:
 
 .message-left > p > span,
 .message-right > p > span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 display:
-block; font-style:
-italic; font-size:
-10px; margin-top:
+block; font-size:
+9px; margin-top:
 2px; }
 
 .feedback {
-font-style:
-italic; font-size:
+ font-size:
 12px; padding:
 0px
 12px
 12px
 12px; color:
 #2d2d2d; text-align:
-center; }
+center; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
 
 .message-form {
 display:
