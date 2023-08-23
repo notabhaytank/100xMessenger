@@ -17,6 +17,12 @@ const triggerWordsToEmojis = {
   lol: "😂",
   like: "🤍",
   congratulations: "🎉",
+  React: "⚛️",
+  Woah: "😲",
+  Hey: "👋",
+  Lol: "😂",
+  Like: "🤍",
+  Congratulations: "🎉",
 
 };
 

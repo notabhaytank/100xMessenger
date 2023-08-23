@@ -195,7 +195,7 @@ color: #ffffff; }
 
 .v-divider {
 height:
-36px;
+40px;
 width: 1px;
 
 background-color:
@@ -218,6 +218,19 @@ margin-bottom: -17px;
 
 }
 
+.clients-total2 {
+
+    margin: 3vh;
+    font-weight: 400;
+    color:
+    
+    #7e7e7e;
+    
+    font-size:13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+    }
 
 .modal {
   
