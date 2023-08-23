@@ -141,7 +141,8 @@ flex-end; background-color:
 display:
 block; font-size:
 9px; margin-top:
-2px; }
+2px;
+color: #7e7e7e; }
 
 .feedback {
  font-size:
@@ -164,7 +165,7 @@ auto;
 .message-input {
 flex-grow:
 1; height:
-36px; 
+40px; 
 font-size:
 14px; border:
 none; outline:
@@ -181,7 +182,7 @@ font-style: italic;}
 
 .send-button {
 height:
-36px; 
+40px; 
 font-size:
 14px; border:
 none; padding:
@@ -213,7 +214,7 @@ color:
 
 font-size:15px;
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-margin-bottom: -20px;
+margin-bottom: -17px;
 
 }
 
