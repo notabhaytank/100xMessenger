@@ -7,7 +7,7 @@ const nameInput = document.getElementById('name-input');
 const messageForm = document.getElementById('message-form');
 const messageInput = document.getElementById('message-input');
 
-const messageTone = new Audio('/message-tone.mp3');
+
 
 
 const triggerWordsToEmojis = {
@@ -55,10 +55,7 @@ function sendMessage() {
     messageInput.value = '';
 }
 
-socket.on('chat-message', (data) => {
-    messageTone.play();
-    addMessageToUI(false, data);
-});
+
 
 function addMessageToUI(isOwnMessage, data) {
     clearFeedback();
