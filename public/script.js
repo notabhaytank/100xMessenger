@@ -29,6 +29,9 @@ const triggerWordsToEmojis = {
 
 
 
+
+
+
 messageForm.addEventListener('submit', (e) => {
     e.preventDefault();
     sendMessage();
@@ -113,14 +116,17 @@ function clearFeedback() {
 }
 
 function processMessage(message) {
-    for (const triggerWord in triggerWordsToEmojis) {
-        if (message.includes(triggerWord)) {
-            const emoji = triggerWordsToEmojis[triggerWord];
-            message = message.replace(triggerWord, emoji);
+    const words = message.split(/\s+/); // Split message into words
+    const processedWords = words.map((word) => {
+        // Check if the word is a trigger word and appears as a standalone word
+        if (triggerWordsToEmojis.hasOwnProperty(word.toLowerCase())) {
+            return triggerWordsToEmojis[word.toLowerCase()];
         }
-    }
-    return message;
+        return word;
+    });
+    return processedWords.join(' '); // Reconstruct the message
 }
+
 
 
 
